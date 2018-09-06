@@ -61,7 +61,7 @@ Other guidelines for the course project:
 
 ## Teaching Assistance: Yeda Du (都业达)
 * Email: 1601213511@sz.pku.edu.cn
-* TA Office Hour: TBA (Room 213/214)
+* TA Office Hour: Mon and Thurs, 10:30 AM - 12:30 PM (Room 213/214)
 
 ## Course overview: 
 Applied Stochastic Processes (ASP) is intended for the students who are
