@@ -3,7 +3,11 @@
 ## Announcements
 * Email is the preferred method of communication. Class mailing list will be created as PHBS.ASP@allmail.net.
 
-## Lectures:
+## Course Notes
+* Course slides: [Probability Statistics Review](files/Prob_Stat_Review.pdf) | [MC Method](files/MCmethod.pdf)
+* Past Exam: [2017-18](files/ASP2017_Midterm.pdf)
+
+## Lectures
 * __18__ (11.09 Tues): Course project presentation
 * ...
 * __13__ (10.23 Tues): Midterm exam
