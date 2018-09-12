@@ -1,11 +1,20 @@
 # Applied Stochastic Processes (FIN 514, 2018-19 Module 1)
 
 ## Announcements
+* Python Crash Course will be on 9.12 (Wed) **1:30 PM** (changed). Class mailing list created.
 * Email is the preferred method of communication. Class mailing list will be created as PHBS.ASP@allmail.net.
 
 ## Course Notes
-* Course slides: [Probability Statistics Review](files/Prob_Stat_Review.pdf) | [MC Method](files/MCmethod.pdf)
+* Prelims: [Probability Statistics Review](files/Prob_Stat_Review.pdf) | [MC Method](files/MCmethod.pdf) ([Py demo](py/MC_Demo.ipynb))
 * Past Exam: [2017-18](files/ASP2017_Midterm.pdf)
+* Black-Scholes model (Py demo)
+* Normal(Bachelier) model ([Slides](files/Normal_Model.pdf))
+* Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
+* Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
+* SABR model ([Slides](files/SABRmodel.pdf))
+* Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
+* ...
+
 
 ## Lectures
 * __18__ (11.09 Tues): Course project presentation
@@ -15,18 +24,9 @@
 * __NO CLASS__ on 10.16 Tues
 * ...
 * __04__ (__09.12 Wed 10:30 AM__ instead of __10.16 Tues__): Python crash course
-* __03__ (09.11 Tues): TBA
-* __02__ (09.07 Fri): Scientific computing, Monte Carlo method, Random number generation ([Slides](files/MCmethod.pdf), [Py demo](py/MC_Demo.ipynb)). 
+* __03__ (09.11 Tues): Continued ([Py demo](py/MC_Demo.ipynb))
+* __02__ (09.07 Fri): Scientific computing, Monte Carlo method, Random number generation ([Slides](files/MCmethod.pdf)). 
 * __01__ (09.04 Tues): Course overview ([Syllabus](files/syllabus.pdf)), Probability Statistics Review ([Slides](files/Prob_Stat_Review.pdf))
-
-## Topics to Cover
-* Black-Scholes model (Py demo)
-* Normal(Bachelier) model ([Slides](files/Normal_Model.pdf))
-* Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
-* Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
-* SABR model ([Slides](files/SABRmodel.pdf))
-* Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
-* ...
 
 ## Homeworks:
 * ### __Set 1__ [Due by 09.11 Tues]
