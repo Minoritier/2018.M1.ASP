@@ -23,7 +23,7 @@
 * ....
 * __NO CLASS__ on 10.16 Tues
 * ...
-* __04__ (__09.12 Wed 10:30 AM__ instead of __10.16 Tues__): Python crash course
+* __04__ (__09.12 Wed__ instead of __10.16 Tues__): Python crash course ([Basic](py/PythonCrashCourse_Derek_Banas.ipynb) | [Numpy](py/PythonCrashCourse_Numpy.ipynb)).  More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570).
 * __03__ (09.11 Tues): Continued ([Py demo](py/MC_Demo.ipynb))
 * __02__ (09.07 Fri): Scientific computing, Monte Carlo method, Random number generation ([Slides](files/MCmethod.pdf)). 
 * __01__ (09.04 Tues): Course overview ([Syllabus](files/syllabus.pdf)), Probability Statistics Review ([Slides](files/Prob_Stat_Review.pdf))
