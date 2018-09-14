@@ -5,10 +5,10 @@
 * Python Crash Course will be on 9.12 (Wed) **1:30 PM** (changed). Class mailing list created.
 * Email is the preferred method of communication. Class mailing list will be created as PHBS.ASP@allmail.net.
 
-## Course Notes
+## Course Slides and Other Resources
 * Prelims: [Probability Statistics Review](files/Prob_Stat_Review.pdf) | [MC Method](files/MCmethod.pdf) ([Py demo](py/MC_Demo.ipynb))
 * Past Exam: [2017-18](files/ASP2017_Midterm.pdf)
-* Black-Scholes model (Py demo)
+* Black-Scholes model ([Py demo](py/BlackScholes_ImpliedVol.ipynb)): Also see Ch. 10 of [StoFin Course Notes](https://github.com/PHBS/2017.M3.StoFin/blob/master/files/SCFA_Notes.pdf)
 * Normal(Bachelier) model ([Slides](files/Normal_Model.pdf))
 * Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
 * Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
