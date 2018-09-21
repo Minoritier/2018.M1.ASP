@@ -24,6 +24,7 @@
 * ....
 * __NO CLASS__ on 10.16 Tues
 * ...
+* __07__ [Black-Scholes Implementation](https://github.com/PHBS-2017-ASP-Classroom/BSMmodel_Base), Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
 * __06__ Black-Scholes and Normal models in MC ([Py Demo](py/BlackScholes_MC.ipynb)), Normal model ([Slides](files/Normal_Model.pdf)), Correlated Normal RNs ([Py Demo](py/CorrelatedNormals_Demo.ipynb))
 * __05__ HW2, Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)), Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
 * __04__ (__09.12 Wed__ instead of __10.16 Tues__): Python crash course ([Basic](py/PythonCrashCourse_Derek_Banas.ipynb) | [Numpy](py/PythonCrashCourse_Numpy.ipynb)).  More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570).
