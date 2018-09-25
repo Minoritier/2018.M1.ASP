@@ -24,7 +24,7 @@
 * ....
 * __NO CLASS__ on 10.16 Tues
 * ...
-* __08__ Spread/Basket option implementation, Debugging in Python
+* __08__ [Spread/Basket option implementation](py/TestCode_BasketSpread.ipynb), Debugging in Python
 * __07__ [Black-Scholes Implementation](https://github.com/PHBS-2017-ASP-Classroom/BSMmodel_Base), Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
 * __06__ Black-Scholes and Normal models in MC ([Py Demo](py/BlackScholes_MC.ipynb)), Normal model ([Slides](files/Normal_Model.pdf)), Correlated Normal RNs ([Py Demo](py/CorrelatedNormals_Demo.ipynb))
 * __05__ HW2, Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)), Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
@@ -34,6 +34,7 @@
 * __01__ (09.04 Tues): Course overview ([Syllabus](files/syllabus.pdf)), Probability Statistics Review ([Slides](files/Prob_Stat_Review.pdf))
 
 ## Homeworks:
+* ### __Set 3__ [Due by 10.9 Tues] Pricing basket and spread option using MC [Starter Code](py/option_models/basket.py)
 * ### __Set 2__ [Due by 9.21 Fri] Pricing corporate (default) bond by MC simulation. [Starter Code](py/HW2.ipynb)
 
 * ### __Set 1__ [Due by 09.11 Tues]
