@@ -20,10 +20,10 @@ def basket_check_args(spot, vol, corr_m, weights):
     
 def basket_price_mc_cv(
     strike, spot, vol, weights, texp, cor_m, 
-    intr=0.0, divr=0.0, cp_sign=1, n_samples=10000, seed=8888
+    intr=0.0, divr=0.0, cp_sign=1, n_samples=10000
 ):
     # price1 = MC based on BSM
-    np.random.seed(seed)
+    rand_st = np.random.get_state() # Store random state first
     price1 = basket_price_mc(
         strike, spot, vol, weights, texp, cor_m,
         intr, divr, cp_sign, True, n_samples)
@@ -32,7 +32,8 @@ def basket_price_mc_cv(
     compute price2: mc price based on normal model
     make sure you use the same seed
 
-    np.random.seed(seed)
+    # Restore the state in order to generate the same state
+    np.random.set_state(rand_st)  
     price2 = basket_price_mc(
         strike, spot, spot*vol, weights, texp, cor_m,
         intr, divr, cp_sign, False, n_samples)
@@ -48,9 +49,10 @@ def basket_price_mc_cv(
     '''
     price3 = 0
     
-    return price1 - (price2 - price3)
+    # return two prices: without and with CV
+    return [price1, price1 - (price2 - price3)] 
     
-    
+
 def basket_price_mc(
     strike, spot, vol, weights, texp, cor_m,
     intr=0.0, divr=0.0, cp_sign=1, bsm=True, n_samples = 10000
