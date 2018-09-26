@@ -6,6 +6,8 @@ Created on Tue Sep 19 22:56:58 2017
 """
 import numpy as np
 import scipy.stats as ss
+from .bsm import bsm_price
+from .normal import normal_price
 
 def basket_check_args(spot, vol, corr_m, weights):
     '''
@@ -88,20 +90,18 @@ def basket_price_norm_analytic(
     1. compute the forward of the basket
     2. compute the normal volatility of basket
     3. plug in the forward and volatility to the normal price formula
-    you may copy & paste the normal price formula from your previous HW.
+    normal_formula(strike, spot, vol, texp, intr=0.0, divr=0.0, cp_sign=1)
+    it is already imorted
     '''
     
     return 0.0
 
+def spread_price_kirk(strike, spot, vol, texp, corr, intr=0, divr=0, cp_sign=1):
+    div_fac = np.exp(-texp*divr)
+    disc_fac = np.exp(-texp*intr)
+    forward = spot / disc_fac * div_fac
+    vol2 = vol[1]*forward[1]/(forward[1]+strike)
+    vol_r = np.sqrt(vol[0]**2 + vol2*(vol2 - 2*corr*vol[0]))
+    price = disc_fac * bsm_price(forward[1]+strike, forward[0], vol_r, texp, cp_sign=cp_sign)
 
-def spread_price_kirk(strike, spot, vol, texp, corr, intr, divr):
-    
-    F1 = spot[0] / np.exp(-texp*intr) * np.exp(-texp*divr[0])
-    F2 = spot[1] / np.exp(-texp*intr) * np.exp(-texp*divr[1])
-    
-    vol2=vol[1]*F2/(F2+strike)
-    volR=np.sqrt(vol[0]**2+vol2**2-2*corr*vol[0]*vol2)
-    dplus=np.log(F1/(F2+strike))/(volR*np.sqrt(texp))+0.5*volR*np.sqrt(texp)
-    dminus=np.log(F1/(F2+strike))/(volR*np.sqrt(texp))-0.5*volR*np.sqrt(texp)
-    c=np.exp(-texp*intr)*(F1*ss.norm.cdf(dplus)-(strike+F2)*ss.norm.cdf(dminus))
-    return c
+    return price
