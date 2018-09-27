@@ -1,7 +1,8 @@
 # Applied Stochastic Processes (FIN 514, 2018-19 Module 1)
 
 ## Announcements
-* [HW2](py/HW2.ipynb) is due by 9.21 (Fri)
+* HW3 ([Starter Code](py/HW3/TestCode_BasketSpread.ipynb)) is due by 10.9 (Tues)
+* HW2 ([Starter Code](py/HW2/HW2.ipynb)) is due by 9.21 (Fri)
 * Python Crash Course will be on 9.12 (Wed) **1:30 PM** (changed). Class mailing list created.
 * Email is the preferred method of communication. Class mailing list will be created as PHBS.ASP@allmail.net.
 
@@ -34,8 +35,8 @@
 * __01__ (09.04 Tues): Course overview ([Syllabus](files/syllabus.pdf)), Probability Statistics Review ([Slides](files/Prob_Stat_Review.pdf))
 
 ## Homeworks:
-* ### __Set 3__ [Due by 10.9 Tues] Pricing basket and spread option using MC [Starter Code](py/option_models/basket.py)
-* ### __Set 2__ [Due by 9.21 Fri] Pricing corporate (default) bond by MC simulation. [Starter Code](py/HW2.ipynb)
+* ### __Set 3__ [Due by 10.9 Tues] Pricing basket and spread option using MC [Starter Code](py/HW3/TestCode_BasketSpread.ipynb)
+* ### __Set 2__ [Due by 9.21 Fri] Pricing corporate (default) bond by MC simulation. [Starter Code](py/HW2/HW2.ipynb)
 
 * ### __Set 1__ [Due by 09.11 Tues]
   * Register on Github.com and send your ID to TA via email. Use your __full name__ in your profile. Accept invitation to the [PHBS organization](https://github.com/orgs/PHBS/people) from TA. Install [Github Desktop](https://desktop.github.com/) (available on `Machine Learning` [CMS](http://cms.phbs.pku.edu.cn/claroline/course/index.php?cid=FN570)). 
