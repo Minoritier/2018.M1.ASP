@@ -25,6 +25,8 @@
 * ....
 * __NO CLASS__ on 10.16 Tues
 * ...
+* __10__ (10.09 Tues): HW2 review, SABR model ([Slides](files/SABRmodel.pdf)), Stochastic Finance review
+* __09__ (09.28 Fri): SABR model([Slides](files/SABRmodel.pdf): Volatility smile, Local volatility model)
 * __08__ (09.25 Tues): [Spread/Basket option implementation](py/TestCode_BasketSpread.ipynb), Debugging in Python
 * __07__ (09.21 Fri): [Black-Scholes Implementation](https://github.com/PHBS-2017-ASP-Classroom/BSMmodel_Base), Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
 * __06__ (09.18 Tues): Black-Scholes and Normal models in MC ([Py Demo](py/BlackScholes_MC.ipynb)), Normal model ([Slides](files/Normal_Model.pdf)), Correlated Normal RNs ([Py Demo](py/CorrelatedNormals_Demo.ipynb))
