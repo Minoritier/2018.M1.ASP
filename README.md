@@ -1,6 +1,8 @@
 # Applied Stochastic Processes (FIN 514, 2018-19 Module 1)
 
 ## Announcements
+* [Course project](py/Project/README.md)
+* HW4 ([Starter Code](py/HW4/TestCode_SABR.ipynb)) is due by 10.26 (Fri)
 * HW3 ([Starter Code](py/HW3/TestCode_BasketSpread.ipynb)) is due by 10.9 (Tues)
 * HW2 ([Starter Code](py/HW2/HW2.ipynb)) is due by 9.21 (Fri), [Solution](py/HW2/HW2_Solution.ipynb) was uploaded.
 * Python Crash Course will be on 9.12 (Wed) **1:30 PM** (changed). Class mailing list created.
@@ -37,6 +39,7 @@
 * __01__ (09.04 Tues): Course overview ([Syllabus](files/syllabus.pdf)), Probability Statistics Review ([Slides](files/Prob_Stat_Review.pdf))
 
 ## Homeworks:
+* ### __Set 4__ [Due by 10.26 Fri] Simulating SABR model [Starter Code](py/HW4/TestCode_SABR.ipynb)
 * ### __Set 3__ [Due by 10.9 Tues] Pricing basket and spread option using MC [Starter Code](py/HW3/TestCode_BasketSpread.ipynb)
 * ### __Set 2__ [Due by 9.21 Fri] Pricing corporate (default) bond by MC simulation. [Starter Code](py/HW2/HW2.ipynb), [Solution](py/HW2/HW2_Solution.ipynb)
 
@@ -44,25 +47,6 @@
   * Register on Github.com and send your ID to TA via email. Use your __full name__ in your profile. Accept invitation to the [PHBS organization](https://github.com/orgs/PHBS/people) from TA. Install [Github Desktop](https://desktop.github.com/) (available on `Machine Learning` [CMS](http://cms.phbs.pku.edu.cn/claroline/course/index.php?cid=FN570)). 
   * Install [Anaconda](https://www.anaconda.com/download/) Python distribution (__3.X version__, 2.X version). Anaconda distribution is core Python + useful scientific computation libraries (e.g., numpy, scipy, pandas) + package management system (pip or conda)
   * Send the screenshot of both softwares installed to TA. (Example: [Github Desktop](files/Choi_Jaehyuk_Github.png), [Anaconda Spyder](files/Choi_Jaehyuk_Python.png))
-
-## Course Project:
-
-You are very welcome to do the project on your own original idea and you will get additional credit for that. Otherwise, pick one from my suggestions which are basically understanding and implementing literatures. The github repository for the project should be consist of
-
-* Core implementation (.py): python class and functions
-  * Make sure to comment in detail.
-  * Put them in a separate subfolder (e.g., option_models) Do not mix with testing/manual notebook files
-* Documentation/Manual (.ipynb): one Jupyter notebook file briefly describing the method (base theory, equations, SDE, strength/weakness, etc), the function prototype and arguments (manual style) and the usage examples
-  * The best examples are from numpy documentation: [example](https://docs.scipy.org/doc/numpy-1.10.1/reference/routines.polynomials.hermite.html)
-* Validation/Test (.ipynb): one Jupyter notebook file briefly test the code/model.
-  * Be a bit creative here
-  * BSM/Normal model: make sure to include the analytic-vs-numerical risk test.
-  * SV (SABR/Heston): make sure that the price converge to BSM/Normal if alpha(vov parameter) goes to 0
-  * Spread/Basket: make sure that the price is same as single asset BSM if the weigit is 1 for only one asset and zero otherwise.
-  
-Other guidelines for the course project:
-* The contribution will be individually graded. Make sure to show the contribution via github desktop commits (not online upload).
-* The presentation next week doesn't have to be complete. Show your plan and understanding so far, e.g. function prototypes & arguments, etc and the tests to put on.
 
 ## Classes: 
 * Lectures: Tues & Fri 1:30 – 3:20 PM
