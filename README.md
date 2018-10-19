@@ -10,7 +10,7 @@
 
 ## Course Slides and Other Resources
 * Prelims: [Probability Statistics Review](files/Prob_Stat_Review.pdf) | [MC Method](files/MCmethod.pdf) ([Py demo](py/MC_Demo.ipynb))
-* Past Exam: [2017-18](files/ASP2017_Midterm.pdf)
+* Past Exam: [2017-18 ASP](files/ASP2017_Midterm.pdf), [2016-17 StoFin Midterm](files/SF2016_Midterm.pdf) and [Final](files/SF2016_Final.pdf)
 * Black-Scholes model ([Py demo](py/BlackScholes_ImpliedVol.ipynb), [MC demo](py/BlackScholes_MC.ipynb)): Also see Ch. 10 of [StoFin Course Notes](https://github.com/PHBS/2017.M3.StoFin/blob/master/files/SCFA_Notes.pdf)
 * Normal (Bachelier) model ([Slides](files/Normal_Model.pdf))
 * Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
