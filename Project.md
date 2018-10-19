@@ -5,11 +5,11 @@
   * BSM (lognormal) vs Bachelier (normal) model
   * Spread/Basket/Asian option pricing
   * SABR model and other stochastic volatility models
-  
+
 ## File requirements
 * Core implementation (.py): python class and functions
   * Make sure to comment in detail.
-  * Integrate into the `pyfe` folder. Do not mix with testing/manual notebook files
+  * __Integrate into the `pyfe` folder.__ Do not mix with testing/manual notebook files.
 * Documentation/Manual (.ipynb): one Jupyter notebook file briefly describing the method (base theory, equations, SDE, strength/weakness, etc), the function prototype and arguments (manual style) and the usage examples
   * The best examples are from numpy documentation: [example](https://docs.scipy.org/doc/numpy-1.10.1/reference/routines.polynomials.hermite.html)
 * Validation/Test (.ipynb): one Jupyter notebook file briefly test the code/model.
@@ -25,15 +25,18 @@
 ## Suggested Papers 
 * [BSM Implied Volatility] Analytic approximation of BSM implied volatility ([Jackel 2016](jaeckel.16mb.com/LetsBeRational.pdf)): implement the method, include it to BSM class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
 
-* [Heston Model](https://en.wikipedia.org/wiki/Heston_model): pricing by conditional Monte-Carlo + Fast Fourier Transform (FFT) method. Contact me.
+* [Heston Model(https://en.wikipedia.org/wiki/Heston_model)]: Option pricing by exact Monte-Carlo + Fast Fourier Transform (FFT) method. Contact me for more information.
 
-* [SABR Simulation] [Efficient SABR simulation by Leitao et al](http://dx.doi.org/10.1016/j.amc.2016.08.030)
+* [SABR approximations] Various improvement to Hagan's original paper: Paulot, Obloj, Balland, etc. Contact me for more information.
+
+* [SABR Simulation 1] [Efficient SABR simulation by Leitao et al](http://dx.doi.org/10.1016/j.amc.2016.08.030)
+
+* [SABR Simulation 2] SABR simulation by stochastic sollocation Monte Carlo method ( [paper 1](https://ssrn.com/abstract=2529691), [paper 2](https://ssrn.com/abstract=2529684) )
 
 * [Spread option] ~Very accurate analytic approximation for spread options by [Li et al, 2006](https://ssrn.com/abstract_id=952747).~ 
 Also implement Kirk's approximation covered in class and [(Bjersund, Stensland 2014)](http://ssrn.com/abstract_id=1145206). Implement each method in a new class. In python notebook, summarize the method, write a quick help and report strength and weakness. Compare the three methods.
 
 ## Completed Papers
-
 * ~[Normal Implied Volatility]~ Analytic approximation of normal implied volatility ([Choi et al 2007](http://jaehyukchoi.com/research/normvol/index.html)): (Contact me if you want to take this project) implement the method, include it to Normal class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
 * ~[Normal Implied Volatility]~ Analytic approximation of normal implied volatility ([Le Floc'h 2016](https://ssrn.com/abstract=2420757), [some discussion](https://www.clarusft.com/analytic-implied-basis-point-volatility/)): implement the method, include it to Normal class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
 * ~[Basket+Asian option]~ Pick one method in the following 3 methods in survey of basket option pricing (Krekel at al, 2004, Wilmott magazine, July, 82-89): Implement the method in a new class. In python notebook, summarize the method, write a quick help and report strength and weakness.
