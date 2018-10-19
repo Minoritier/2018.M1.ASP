@@ -14,9 +14,9 @@
   * The best examples are from numpy documentation: [example](https://docs.scipy.org/doc/numpy-1.10.1/reference/routines.polynomials.hermite.html)
 * Validation/Test (.ipynb): one Jupyter notebook file briefly test the code/model.
   * Think creatively how to avoid possible errors. For example,
-    * BSM/Normal model: make sure to include the analytic-vs-numerical risk test.
-    * SV (SABR/Heston): make sure that the price converge to BSM/Normal if alpha(vov parameter) goes to 0
-    * Spread/Basket: make sure that the price is same as single asset BSM if the weigit is 1 for only one asset and zero otherwise.
+  * BSM/Normal model: make sure to include the analytic-vs-numerical risk test.
+  * SV (SABR/Heston): make sure that the price converge to BSM/Normal if alpha(vov parameter) goes to 0
+  * Spread/Basket: make sure that the price is same as single asset BSM if the weigit is 1 for only one asset and zero otherwise.
 
 ## Other guidelines
 * The contribution will be individually graded. Make sure to show the contribution via github desktop commits (not online upload).
@@ -25,7 +25,7 @@
 ## Suggested Papers 
 * [BSM Implied Volatility] Analytic approximation of BSM implied volatility ([Jackel 2016](jaeckel.16mb.com/LetsBeRational.pdf)): implement the method, include it to BSM class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
 
-* [Heston Model(https://en.wikipedia.org/wiki/Heston_model)]: Option pricing by exact Monte-Carlo + Fast Fourier Transform (FFT) method. Contact me for more information.
+* [[Heston Model](https://en.wikipedia.org/wiki/Heston_model)]: Option pricing by exact Monte-Carlo + Fast Fourier Transform (FFT) method. Contact me for more information.
 
 * [SABR approximations] Various improvement to Hagan's original paper: Paulot, Obloj, Balland, etc. Contact me for more information.
 
