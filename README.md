@@ -1,7 +1,7 @@
 # Applied Stochastic Processes (FIN 514, 2018-19 Module 1)
 
 ## Announcements
-* [Course project](py/Project/README.md)
+* [Course project](Project.md)
 * HW4 ([Starter Code](py/HW4/TestCode_SABR.ipynb)) is due by 10.26 (Fri)
 * HW3 ([Starter Code](py/HW3/TestCode_BasketSpread.ipynb)) is due by 10.9 (Tues)
 * HW2 ([Starter Code](py/HW2/HW2.ipynb)) is due by 9.21 (Fri), [Solution](py/HW2/HW2_Solution.ipynb) was uploaded.
