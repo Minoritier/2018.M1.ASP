@@ -1,6 +1,7 @@
 # Applied Stochastic Processes (FIN 514, 2018-19 Module 1)
 
 ## Announcements
+* [Midterm exam solution](files/ASP2018_Midterm.pdf) is uploaded
 * [Course project](Project.md)
 * HW4 ([Starter Code](py/HW4/TestCode_SABR.ipynb)) is due by 10.26 (Fri)
 * HW3 ([Starter Code](py/HW3/TestCode_BasketSpread.ipynb)) is due by 10.9 (Tues)
@@ -23,7 +24,7 @@
 ## Lectures
 * __18__ (11.09 Tues): Course project presentation
 * ...
-* __13__ (10.23 Tues): Midterm exam
+* __13__ (10.23 Tues): Midterm exam ([Solution](files/ASP2018_Midterm.pdf))
 * __12__ (10.19 Fri): Copula, Review for midterm exam
 * __NO CLASS__ on 10.16 Tues
 * __11__ (10.12 Fri): SABR model ([Slides](files/SABRmodel.pdf)): Conditional MC method
