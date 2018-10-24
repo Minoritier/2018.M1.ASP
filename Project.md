@@ -27,11 +27,14 @@
 
 * [[Heston Model](https://en.wikipedia.org/wiki/Heston_model)]: Option pricing by exact Monte-Carlo + Fast Fourier Transform (FFT) method. Contact me for more information.
 
-* [SABR approximations] Various improvement to Hagan's original paper: Paulot, Obloj, Balland, etc. Contact me for more information.
+* [SABR approximations] Various improvement to Hagan's original paper: [Paulot](https://arxiv.org/abs/0906.0658), [Obloj](https://arxiv.org/abs/0708.0998), [Balland](http://janroman.dhis.org/finance/OIS/Artiklar%20%C3%B6vrigt/SABR%20goes%20Normal.pdf) 
+, etc. Contact me for more information.
 
-* [SABR Simulation 1] [Efficient SABR simulation by Leitao et al](http://dx.doi.org/10.1016/j.amc.2016.08.030)
+* [SABR Simulation] [Efficient SABR simulation by Leitao et al](http://dx.doi.org/10.1016/j.amc.2016.08.030)
 
-* [SABR Simulation 2] SABR simulation by stochastic sollocation Monte Carlo method ( [paper 1](https://ssrn.com/abstract=2529691), [paper 2](https://ssrn.com/abstract=2529684) )
+* [SABR Simulation/Interpolation] SABR simulation by stochastic sollocation Monte Carlo method ( [paper 1](https://ssrn.com/abstract=2529691), [paper 2](https://ssrn.com/abstract=2529684) )
+
+* [Vanna-Volga method] a smile interpolation method ([Wiki](https://en.wikipedia.org/wiki/Vanna-Volga_pricing), [BSM](https://arxiv.org/abs/0904.1074), [normal](https://arxiv.org/abs/1810.07457) )
 
 * [Spread option] ~Very accurate analytic approximation for spread options by [Li et al, 2006](https://ssrn.com/abstract_id=952747).~ 
 Also implement Kirk's approximation covered in class and [(Bjersund, Stensland 2014)](http://ssrn.com/abstract_id=1145206). Implement each method in a new class. In python notebook, summarize the method, write a quick help and report strength and weakness. Compare the three methods.
