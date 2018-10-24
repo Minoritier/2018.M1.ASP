@@ -20,12 +20,12 @@
 * Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 * ...
 
-
 ## Lectures
 * __18__ (11.09 Tues): Course project presentation
 * ...
+* __14__ (10.26 Fri): Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 * __13__ (10.23 Tues): Midterm exam ([Solution](files/ASP2018_Midterm.pdf))
-* __12__ (10.19 Fri): Copula, Review for midterm exam
+* __12__ (10.19 Fri): Review for midterm exam
 * __NO CLASS__ on 10.16 Tues
 * __11__ (10.12 Fri): SABR model ([Slides](files/SABRmodel.pdf)): Conditional MC method
 * __10__ (10.09 Tues): HW2 review, SABR model ([Slides](files/SABRmodel.pdf)), Stochastic Finance review
