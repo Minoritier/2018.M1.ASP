@@ -36,12 +36,11 @@
 
 * [Vanna-Volga method] a smile interpolation method ([Wiki](https://en.wikipedia.org/wiki/Vanna-Volga_pricing), [BSM](https://arxiv.org/abs/0904.1074), [normal](https://arxiv.org/abs/1810.07457) )
 
-* [Spread option] ~Very accurate analytic approximation for spread options by [Li et al, 2006](https://ssrn.com/abstract_id=952747).~ 
-Also implement Kirk's approximation covered in class and [(Bjersund, Stensland 2014)](http://ssrn.com/abstract_id=1145206). Implement each method in a new class. In python notebook, summarize the method, write a quick help and report strength and weakness. Compare the three methods.
-
 ## Completed Papers
 * ~[Normal Implied Volatility]~ Analytic approximation of normal implied volatility ([Choi et al 2007](http://jaehyukchoi.com/research/normvol/index.html)): (Contact me if you want to take this project) implement the method, include it to Normal class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
 * ~[Normal Implied Volatility]~ Analytic approximation of normal implied volatility ([Le Floc'h 2016](https://ssrn.com/abstract=2420757), [some discussion](https://www.clarusft.com/analytic-implied-basis-point-volatility/)): implement the method, include it to Normal class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
+* ~[Spread option]~ Very accurate analytic approximation for spread options by [Li et al, 2006](https://ssrn.com/abstract_id=952747). 
+Also implement Kirk's approximation covered in class and [(Bjersund, Stensland 2014)](http://ssrn.com/abstract_id=1145206). Implement each method in a new class. In python notebook, summarize the method, write a quick help and report strength and weakness. Compare the three methods.
 * ~[Basket+Asian option]~ Pick one method in the following 3 methods in survey of basket option pricing (Krekel at al, 2004, Wilmott magazine, July, 82-89): Implement the method in a new class. In python notebook, summarize the method, write a quick help and report strength and weakness.
   * a) Beisser's conditional expectation 
   * c) Levy's log-normal moment matching
