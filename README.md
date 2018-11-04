@@ -1,7 +1,7 @@
 # Applied Stochastic Processes (FIN 514, 2018-19 Module 1)
 
 ## Announcements
-* [Course project](files/Project.md)
+* [Course project](files/Project.md): [pyfedev_ASP2018](https://github.com/PHBS/pyfedev_ASP2018)
 * [Midterm exam solution](files/ASP2018_Midterm.pdf) is uploaded
 * HW4 ([Starter Code](py/HW4/TestCode_SABR.ipynb)) is due by 10.26 (Fri)
 * HW3 ([Starter Code](py/HW3/TestCode_BasketSpread.ipynb)) is due by 10.9 (Tues)
