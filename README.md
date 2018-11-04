@@ -1,8 +1,8 @@
 # Applied Stochastic Processes (FIN 514, 2018-19 Module 1)
 
 ## Announcements
+* [Course project](files/Project.md)
 * [Midterm exam solution](files/ASP2018_Midterm.pdf) is uploaded
-* [Course project](Project.md)
 * HW4 ([Starter Code](py/HW4/TestCode_SABR.ipynb)) is due by 10.26 (Fri)
 * HW3 ([Starter Code](py/HW3/TestCode_BasketSpread.ipynb)) is due by 10.9 (Tues)
 * HW2 ([Starter Code](py/HW2/HW2.ipynb)) is due by 9.21 (Fri), [Solution](py/HW2/HW2_Solution.ipynb) was uploaded.
@@ -85,6 +85,6 @@ processes and how they can be computed using analytics or computer simulations.
 ## Assessment/Grading Details
 Attendance 20%, Mid-term Exam 30%, Assignments 20%, Course Project 30%
 * __Midterm exam__: 10.23 Tues. Open-book exam without computer/phone/calculator use. No final exam.
-* __Course project__: Presentation (11.09 Fri). Group up to 2 people.
+* __Course project__: Presentation (11.09 Fri). Group up to 3 people.
 * __Attendance__: Randomly checked. The score is calculated as 20 – 2`x`(#of absence). Leave request should be made 24 hours before with supporting documents, except for emergency. Job interview/internship cannot be a valid reason for leave
 * __Grade__ in letters (e.g., A+, A-, ... ,D+, D, F). __A- or above < 30% and C+ or below > 10%__.
