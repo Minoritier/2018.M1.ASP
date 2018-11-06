@@ -21,9 +21,9 @@
 * Core implementation (.py): python class and functions
   * Make sure to comment in detail.
   * __Integrate into the `pyfe` folder.__ Do not mix with testing/manual notebook files.
-* Documentation/Manual (.ipynb): one Jupyter notebook file briefly describing the method (base theory, equations, SDE, strength/weakness, etc), the function prototype and arguments (manual style) and the usage examples
+* Documentation/Manual (__.ipynb__): one Jupyter notebook file briefly describing the method (base theory, equations, SDE, strength/weakness, etc), the function prototype and arguments (manual style) and the usage examples
   * The best examples are from numpy documentation: [example](https://docs.scipy.org/doc/numpy-1.10.1/reference/routines.polynomials.hermite.html)
-* Validation/Test (.ipynb): one Jupyter notebook file briefly test the code/model.
+* Validation/Test (__.py__): one python file briefly test the code/model.
   * Think creatively how to avoid possible errors. For example,
   * BSM/Normal model: make sure to include the analytic-vs-numerical risk test.
   * SV (SABR/Heston): make sure that the price converge to BSM/Normal if alpha(vov parameter) goes to 0
