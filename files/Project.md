@@ -1,6 +1,6 @@
 # ASP Course Project
 
-## Project List
+## Project List [[link](https://github.com/PHBS/pyfedev_ASP2018/projects)]
 * __Team Jieqiang Tang__: [SABR Simulation] [Efficient SABR simulation by Leitao et al](http://dx.doi.org/10.1016/j.amc.2016.08.030)
 * __Team Junjie Zhang__: [BSM Implied Volatility] Analytic approximation of BSM implied volatility ([Jackel 2016](jaeckel.16mb.com/LetsBeRational.pdf)): implement the method, include it to BSM class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
 * __Team Linsheng Zhuang__: [[Heston Model](https://en.wikipedia.org/wiki/Heston_model)]: Option pricing by exact Monte-Carlo + Fast Fourier Transform (FFT) method. Contact me for more information.
