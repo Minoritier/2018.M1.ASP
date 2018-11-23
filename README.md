@@ -22,9 +22,9 @@
 
 ## Lectures
 * __18__ (11.09 Tues): Course project presentation
-* __17__ (11.06 Tues): Research Presentation (NSVh model)
-* __16__ (11.02 Fri): Research Presentation (Sum of BSM models)
-* __15__ (10.30 Tues): Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
+* __17__ (11.06 Tues): Research Presentation (NSVh model) and HW4 review
+* __16__ (11.02 Fri): Research Presentation (Sum of BSM models) and HW3 review
+* __15__ (10.30 Tues): Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb)), Github Pull-request
 * __14__ (10.26 Fri): Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 * __13__ (10.23 Tues): Midterm exam ([Solution](files/ASP2018_Midterm.pdf))
 * __12__ (10.19 Fri): Review for midterm exam
