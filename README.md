@@ -9,16 +9,18 @@
 * Python Crash Course will be on 9.12 (Wed) **1:30 PM** (changed). Class mailing list created.
 * Email is the preferred method of communication. Class mailing list will be created as PHBS.ASP@allmail.net.
 
-## Course Slides and Other Resources
+## Course Slides and Past Exams
 * Prelims: [Probability Statistics Review](files/Prob_Stat_Review.pdf) | [MC Method](files/MCmethod.pdf) ([Py demo](py/MC_Demo.ipynb))
-* Past Exam: [2017-18 ASP](files/ASP2017_Midterm.pdf), [2016-17 StoFin Midterm](files/SF2016_Midterm.pdf) and [Final](files/SF2016_Final.pdf)
-* Black-Scholes model ([Py demo](py/BlackScholes_ImpliedVol.ipynb), [MC demo](py/BlackScholes_MC.ipynb)): Also see Ch. 10 of [StoFin Course Notes](https://github.com/PHBS/2017.M3.StoFin/blob/master/files/SCFA_Notes.pdf)
+* Past Exam: 2016-17 StoFin [Midterm](files/SF2016_Midterm.pdf) and [Final](files/SF2016_Final.pdf) | [2017-18 ASP](files/ASP2017_Midterm.pdf) | [2018-19 ASP](files/ASP2018_Midterm.pdf)
+* Black-Scholes model ([Py demo](py/BlackScholes_ImpliedVol.ipynb), [MC demo](py/BlackScholes_MC.ipynb)): Also see Ch. 10 of [StoFin Course Notes](https://github.com/PHBS/2018.M3.StoFin/blob/master/files/SCFA_Notes.pdf)
 * Normal (Bachelier) model ([Slides](files/Normal_Model.pdf))
 * Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
 * Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
 * SABR model ([Slides](files/SABRmodel.pdf))
 * Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
-* ...
+
+## Other Resources
+* **Python** course offered by Jake Zhao: Tue & Fri 10:30 AM (Rm 225)
 
 ## Lectures
 * __18__ (11.09 Tues): Course project presentation
